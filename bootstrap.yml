@@ -18,11 +18,13 @@ cloud:
       enabled: false
   vault:
     enabled: false
+
 management:
   metrics:
     export:
       influx:
         enabled: false
+
 swagger:
   enabled: true
 

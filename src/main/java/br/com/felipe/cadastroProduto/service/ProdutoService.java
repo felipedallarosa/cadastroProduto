@@ -35,13 +35,20 @@ public class ProdutoService {
         Optional<Produto> produto = produtoRepository.findTopByIsDeletedAndCodigo(EnumDeletado.N, codProduto);
 
         if (produto.isPresent()) {
+            validarBloqueio(produto);
             OutProduto out = toOutProduto(produto.get());
             alimentaLocalidadeESaldo(out);
             return Optional.of(out);
         } else {
-            throw new BloqueadaVendaProdutoException( "Venda Bloqueada para esse Produto." );
+            return Optional.empty();
         }
 
+    }
+
+    private void validarBloqueio(Optional<Produto> produto) throws BloqueadaVendaProdutoException {
+        if (produto.get().getIsBloqueado()) {
+            throw new BloqueadaVendaProdutoException("Venda Bloqueada para esse Produto.");
+        }
     }
 
     public void alimentaLocalidadeESaldo(OutProduto out){

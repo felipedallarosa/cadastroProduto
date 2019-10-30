@@ -41,6 +41,10 @@ public class Produto implements Serializable{
         @Enumerated
         private EnumDeletado isDeleted;
 
+        @Size(max = 30)
+        @Column(name = "FBLOQ")
+        private Boolean isBloqueado;
+
         @Basic(optional = false)
         @NotNull
         @Size(min = 1, max = 2)
