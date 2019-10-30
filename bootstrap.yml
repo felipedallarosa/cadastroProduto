@@ -1,0 +1,34 @@
+spring:
+  main:
+    banner-mode: "off"
+  application:
+    group: cadastro
+    name: cadastro-Produto
+  jpa:
+    hibernate:
+      ddl-auto: none
+  cloud:
+    consul:
+      enabled: false
+    vault:
+      enabled: false
+cloud:
+  consul:
+    config:
+      enabled: false
+  vault:
+    enabled: false
+management:
+  metrics:
+    export:
+      influx:
+        enabled: false
+swagger:
+  enabled: true
+
+server:
+  port: 8080
+  servlet:
+    contextPath: /${spring.application.name}
+localidade:
+  url: http://localhost:8081/Localidade

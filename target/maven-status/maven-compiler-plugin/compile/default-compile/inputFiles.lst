@@ -1,0 +1,12 @@
+/Users/felipedallarosa/IdeaProjects/cadastroProduto/src/main/java/br/com/felipe/cadastroProduto/config/SwaggerConfig.java
+/Users/felipedallarosa/IdeaProjects/cadastroProduto/src/main/java/br/com/felipe/cadastroProduto/dto/OutProduto.java
+/Users/felipedallarosa/IdeaProjects/cadastroProduto/src/main/java/br/com/felipe/cadastroProduto/controller/ProdutoController.java
+/Users/felipedallarosa/IdeaProjects/cadastroProduto/src/main/java/br/com/felipe/cadastroProduto/client/LocalidadeClient.java
+/Users/felipedallarosa/IdeaProjects/cadastroProduto/src/main/java/br/com/felipe/cadastroProduto/repository/ProdutoRepository.java
+/Users/felipedallarosa/IdeaProjects/cadastroProduto/src/main/java/br/com/felipe/cadastroProduto/exception/BloqueadaVendaProdutoException.java
+/Users/felipedallarosa/IdeaProjects/cadastroProduto/src/main/java/br/com/felipe/cadastroProduto/service/ProdutoService.java
+/Users/felipedallarosa/IdeaProjects/cadastroProduto/src/main/java/br/com/felipe/cadastroProduto/converter/ProdutoConverter.java
+/Users/felipedallarosa/IdeaProjects/cadastroProduto/src/main/java/br/com/felipe/cadastroProduto/client/dto/Localidade.java
+/Users/felipedallarosa/IdeaProjects/cadastroProduto/src/main/java/br/com/felipe/cadastroProduto/domain/Produto.java
+/Users/felipedallarosa/IdeaProjects/cadastroProduto/src/main/java/br/com/felipe/cadastroProduto/CadastroProdutoApplication.java
+/Users/felipedallarosa/IdeaProjects/cadastroProduto/src/main/java/br/com/felipe/cadastroProduto/domain/type/EnumDeletado.java

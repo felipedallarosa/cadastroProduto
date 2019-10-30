@@ -1,0 +1,12 @@
+br/com/felipe/cadastroProduto/exception/BloqueadaVendaProdutoException.class
+br/com/felipe/cadastroProduto/domain/Produto.class
+br/com/felipe/cadastroProduto/client/LocalidadeClient.class
+br/com/felipe/cadastroProduto/service/ProdutoService.class
+br/com/felipe/cadastroProduto/controller/ProdutoController.class
+br/com/felipe/cadastroProduto/dto/OutProduto.class
+br/com/felipe/cadastroProduto/CadastroProdutoApplication.class
+br/com/felipe/cadastroProduto/config/SwaggerConfig.class
+br/com/felipe/cadastroProduto/domain/type/EnumDeletado.class
+br/com/felipe/cadastroProduto/repository/ProdutoRepository.class
+br/com/felipe/cadastroProduto/converter/ProdutoConverter.class
+br/com/felipe/cadastroProduto/client/dto/Localidade.class
