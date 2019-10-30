@@ -1,8 +1,8 @@
-package br.com.felipe.cadastroProduto.controller
+package br.com.felipe.cadastroProduto.controller;
 
-import br.com.felipe.cadastroProduto.dto.OutProduto
-import br.com.felipe.cadastroProduto.exception.BloqueadaVendaProdutoException
-import br.com.felipe.cadastroProduto.service.ProdutoService
+import br.com.felipe.cadastroProduto.dto.OutProduto;
+import br.com.felipe.cadastroProduto.exception.BloqueadaVendaProdutoException;
+import br.com.felipe.cadastroProduto.service.ProdutoService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,6 +15,8 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
+
+import java.util.Optional;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
