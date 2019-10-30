@@ -39,9 +39,9 @@ public class ProdutoController {
             Optional<OutProduto> produto = produtoService.buscarProdutoPorCodigo(codProduto);
 
             if (produto.isPresent()) {
-                return ResponseEntity.notFound().build();
-            } else {
                 return ResponseEntity.ok().body(produto.get());
+            } else {
+                return ResponseEntity.notFound().build();
             }
         }catch (BloqueadaVendaProdutoException ex){
             log.info( "Produto: " + codProduto + " possui bloqueio de Venda.", ex );
@@ -51,5 +51,6 @@ public class ProdutoController {
         }
 
     }
+
 
 }
